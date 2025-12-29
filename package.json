@@ -1,0 +1,32 @@
+{
+  "name": "card-lite",
+  "version": "1.0.0",
+  "description": "Basic card validator",
+  "keywords": [
+    "card",
+    "credit",
+    "debit",
+    "card-validator",
+    "cc-validator",
+    "card-lite",
+    "card-validator-lite",
+    "simple-card-validation",
+    "validation",
+    "important"
+  ],
+  "homepage": "https://github.com/yasasbanukaofficial/card-lite#readme",
+  "bugs": {
+    "url": "https://github.com/yasasbanukaofficial/card-lite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasasbanukaofficial/card-lite.git"
+  },
+  "license": "MIT",
+  "author": "Yasas Banu",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

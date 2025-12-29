@@ -3,9 +3,9 @@ import { format } from "./format";
 export function mask(
   cardNumber: number | string,
   visibleDigits: number = 4
-): string | undefined {
+): string {
   cardNumber = String(cardNumber);
-  if (visibleDigits > cardNumber.length) return undefined;
+  if (visibleDigits > cardNumber.length) return cardNumber;
   return cardNumber
     .slice(-visibleDigits || cardNumber.length)
     .padStart(cardNumber.length, "*");

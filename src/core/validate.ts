@@ -12,7 +12,7 @@ interface ValidateCardOptions {
   allowedBrands?: string[];
 }
 
-interface ValidateCardResult {
+export type ValidateCardResult = {
   isValid: boolean;
   cardType: CardType | "unknown";
   numberValid: boolean;
@@ -23,7 +23,7 @@ interface ValidateCardResult {
   formattedNumber: string;
   displayNumber: string;
   reason?: string;
-}
+};
 
 export function validateCard(
   cardNumber: string,

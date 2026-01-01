@@ -1,7 +1,7 @@
 {
   "name": "card-lite",
   "description": "Modern credit/debit card validator library",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
